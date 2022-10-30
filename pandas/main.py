@@ -18,5 +18,3 @@ print(functions[2](3))
 series_2 = pd.Series(data=vales, index=['l1', 'l2', 'l4'])
 final_series = series + series_2
 print(final_series)
-
-

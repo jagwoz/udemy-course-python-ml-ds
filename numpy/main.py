@@ -29,4 +29,3 @@ print(rand[rand < 4])
 
 print(rand + rand)
 print(rand.sum(axis=0))
-

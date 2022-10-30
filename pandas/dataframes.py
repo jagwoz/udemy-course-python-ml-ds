@@ -1,7 +1,6 @@
 import pandas as pd
 import numpy as np
 
-
 df = pd.DataFrame(np.random.randn(5, 4), ['a', 'b', 'c', 'd', 'e'], ['z', 'y', 'x', 'w'])
 print(df)
 df = pd.DataFrame(np.random.randn(20).reshape(5,4), ['a', 'b', 'c', 'd', 'e'], ['z', 'y', 'x', 'w'])
