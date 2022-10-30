@@ -18,3 +18,15 @@ print(rand)
 print(rand.argmax())
 print(rand.shape)
 
+random = rand
+random[2:5, 2:3] = 20
+print(random)  # rand is the same
+
+print(rand[0, 0])
+print(rand[0][0])
+
+print(rand[rand < 4])
+
+print(rand + rand)
+print(rand.sum(axis=0))
+
