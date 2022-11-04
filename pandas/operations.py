@@ -17,3 +17,7 @@ print(df_group)
 print(df.groupby('group').describe()['values1'])
 
 print(df.groupby('group').describe().transpose())
+
+
+
+print(df)
